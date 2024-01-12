@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+.windows {
+    display: flex;
+    height: 100dvh;
+    background-image: url("asset/bg.avif");
+    background-size: cover;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 350px;
+    height: 550px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 25px;
+}
+
+h1 {
+    margin: 15px;
+    font-size: 25px;
+    font-family: 'Panchang', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 250px;
+    font-weight: 400;
+    font-family: 'Panchang', sans-serif;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+from::placeholder {
+    
+}
+
+.remember {
+    display: flex;
+}
+.remember p {
+    margin:10px;
+    font-family: 'Panchang', sans-serif;
+    font-weight: 600;
+}
