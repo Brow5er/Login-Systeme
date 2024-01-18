@@ -104,4 +104,8 @@ button:hover {
     box-shadow:0 0 4px rgba(0, 22, 220, 0.301);
 }
 
+.forget {
+    cursor: pointer;
+}
+
 
